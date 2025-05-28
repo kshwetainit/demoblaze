@@ -43,6 +43,7 @@ This project automates tests for the Demoblaze e-commerce website using [Playwri
 
    
    npm init playwright@latest
+   
    npm install --save-dev @playwright/test
    
 
