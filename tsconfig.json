@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@pages/*": ["./pages/*"],
+      "@utils/*": ["./utils/*"],
+      "@tests/*": ["./tests/*"]
+    }
+  },
+  "include": [
+    "tests/**/*.ts",
+    "pages/**/*.ts",
+    "utils/**/*.ts"
+  ]
+}

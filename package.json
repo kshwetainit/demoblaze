@@ -1,0 +1,22 @@
+{
+  "name": "demoblaze-playwright",
+  "version": "1.0.0",
+  "description": "Playwright automation suite for DemoBlaze e-commerce website",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.2"
+  },
+  "dependencies": {
+    "uuid": "^11.1.0"
+  }
+}
