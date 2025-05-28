@@ -1,70 +1,58 @@
+
 # Demoblaze E-Commerce Automation
 
 This project automates tests for the Demoblaze e-commerce website using [Playwright](https://playwright.dev/).
 
-## Prerequisites
+##  Prerequisites
 
- [Node.js](https://nodejs.org/en) (version 16 or higher)
- Git
- [Visual Studio Code](https://code.visualstudio.com/) (recommended)
+* [Node.js](https://nodejs.org/en) (version 16 or higher)
+* Git
+* [Visual Studio Code](https://code.visualstudio.com/) (recommended)
 
-## Setup Instructions
+##  Setup Instructions
 
-1. Clone the Repository
+1. **Clone the Repository**
 
-   Open a command prompt and navigate to the folder where you want to create the project. For example:
+   Open Command Prompt and navigate to the folder where you want to create the project. For example:
 
-   cd C:\temp
-   
+   **`cd C:\temp`**
 
-   Clone the repository:
+   Then clone the repository:
 
-   
-   git clone https://github.com/kshwetainit/demoblaze
-   
+   **`git clone https://github.com/kshwetainit/demoblaze`**
 
-2. Open in VSCode
+   This will clone the project to `C:\temp\demoblaze`.
 
-   Launch Visual Studio Code and open the cloned project folder:
+2. **Open in VSCode**
 
-   
-   C:\temp\demoblaze
-   
+   Launch Visual Studio Code and open the folder:
 
-3. Install Dependencies
+   **`C:\temp\demoblaze`**
 
-   Open a new terminal in VSCode and navigate to the project directory:
+3. **Install Dependencies**
 
-   
-   cd demoblaze
-   
+   Open a new terminal in VSCode and run the following:
 
-   Then run the following commands:
+   **`cd demoblaze`**
 
-   
-   npm init playwright@latest
-   
-   npm install --save-dev @playwright/test
-   
+   Then install Playwright and the test runner:
 
-4. Run Tests
+   **`npm init playwright@latest`**
+   **`npm install --save-dev @playwright/test`**
 
-    To run all tests:
+4. **Run All Tests**
 
-     
-     npx playwright test tests
-     
+   **`npx playwright test tests`**
 
-    To run a specific test, for example the cart test:
+5. **Run a Specific Test**
 
-     
-     npx playwright test tests/cart.test.ts
-     
+   For example, to run the cart test:
 
-5. View Test Report
+   **`npx playwright test tests/cart.test.ts`**
 
-   After test execution, you can view the HTML report:
+6. **View Test Report**
 
-   
-   npx playwright show-report
+   After running tests, view the HTML report with:
+
+   **`npx playwright show-report`**
 
